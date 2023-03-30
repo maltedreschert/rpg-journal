@@ -1,7 +1,21 @@
-import Head from 'next/head';
+//import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+import Head from 'next/head';
+
+export default function La() {
+  return (
+    <div className={styles.container}>
+      <Head>
+        <title>Next App</title>
+      </Head>
+
+      <main className={styles.main}></main>
+    </div>
+  );
+}
+
+/*export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -56,4 +70,4 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+}*/
